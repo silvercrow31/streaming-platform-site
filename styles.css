@@ -1,0 +1,135 @@
+body {
+    background-color: #BCFB89;
+  
+}
+
+.menu-container {
+    display: flex;
+    height: 10ch;
+}
+
+/* propiedades generales para las cajas (flex, colores, bordes, sizing) */
+.logo-container,
+.logo,
+.searchbar,
+.menu-buttons-container,
+.menu-button,
+.menu-container,
+.sidebar-button,
+.sidebar-container,
+.dashboard-container,
+.footer,
+.ribbon-container,
+.media-container,
+.cover,
+.title,
+.ribbon,
+#lipsum {
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    border: 2px solid #094542;
+}
+
+.big-container {
+    box-sizing: border-box;
+    display: flex;
+}
+
+h1 {
+    align-self: flex-start;
+    font-size: x-large;
+    margin-left: 1ch;
+}
+
+/* propiedades grales para los contenedores laterales */
+.logo-container,
+.menu-buttons-container {
+    margin: 1ch;
+    width: auto;
+    flex: 1;
+    height: 8ch;
+}
+
+.logo-container {
+    justify-content: flex-start;
+    text-align: center;
+}
+
+.searchbar {
+    background-color: #05C274;
+    justify-content: center;
+    flex:initial;
+    margin: 1ch;
+    width: 50ch;
+    height: 5ch;
+}
+
+.menu-buttons-container {
+    justify-content:flex-end;
+}
+
+
+
+/* define el tamaño de los cuadrados (botones y logos) */
+.menu-button,
+.logo,
+.sidebar-button {
+    background-color: #05C274;
+    margin: 1ch;
+    width: 5ch;
+    height: 5ch;
+    /* width: auto;
+    height: auto; */
+}
+
+.sidebar-button {
+    margin: 2.25ch;
+}
+
+.sidebar-container {
+    height:inherit;
+    width: fit-content;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.dashboard-container,
+.ribbon-container,
+.media-container {
+    width: 100%;
+    flex-direction: column;
+}
+.footer {
+    height: 5ch;
+    width: 100%;
+
+}
+.ribbon {
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+p {
+    margin: 1em;
+}
+
+.cover {
+    width: 120px;
+    height: 180px;
+}
+
+
+#lipsum {
+    display: flex;
+    width: inherit;
+    margin: 0 auto;
+    flex-direction: column;
+}
+
+#lipsum p {
+    display: block;
+    width: 65ch;
+}
