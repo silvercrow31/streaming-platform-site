@@ -1,6 +1,7 @@
-body {
-    background-color: #BCFB89;
-  
+html, body {
+    background-color: #0c0d22;
+    height: 100%;
+    color: white;
 }
 
 .menu-container {
@@ -28,7 +29,7 @@ body {
     box-sizing: border-box;
     display: flex;
     align-items: center;
-    border: 2px solid #094542;
+    border: 1px solid #afdd16;
 }
 
 .big-container {
@@ -57,7 +58,7 @@ h1 {
 }
 
 .searchbar {
-    background-color: #05C274;
+    background-color: #0c0d22;
     justify-content: center;
     flex:initial;
     margin: 1ch;
@@ -75,7 +76,6 @@ h1 {
 .menu-button,
 .logo,
 .sidebar-button {
-    background-color: #05C274;
     margin: 1ch;
     width: 5ch;
     height: 5ch;
@@ -132,4 +132,33 @@ p {
 #lipsum p {
     display: block;
     width: 65ch;
+}
+
+/* this applies color to foreground objects in the site */
+/* .cover,
+.searchbar,
+.sidebar-container,
+.sidebar-button,
+.menu-button,
+.ribbon {
+    background-color: #0c0d22;
+} */
+
+.title {
+    padding: 8px;
+}
+
+ /* centers placeholder text. can be removed when proper media is added */
+.cover,
+.sidebar-button,
+.menu-button {
+    justify-content: center;
+}
+
+.ribbon-container {
+    margin-top: 10ch;
+}
+
+.rc1 {
+    margin-top: 0;
 }
